@@ -7,5 +7,4 @@ export const EmpleadoScreen = () => {
             <Empleados />
         </div>
     );
-
 }

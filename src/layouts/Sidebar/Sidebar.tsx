@@ -6,7 +6,7 @@ export const Sidebar = () => {
 			{/* Main Sidebar Container */}
 			<aside className='main-sidebar sidebar-dark-primary elevation-4'>
 				{/* Brand Logo */}
-				<a href='index3.html' className='brand-link'>
+				<a href='/' className='brand-link'>
 					<img
 						src='./img/doctor.png'
 						alt='AdminLTE Logo'
@@ -27,7 +27,7 @@ export const Sidebar = () => {
 							/>
 						</div>
 						<div className='info'>
-							<a href='#' className='d-block'>
+							<a href='/' className='d-block'>
 								Freddy Simanca
 							</a>
 						</div>
@@ -47,7 +47,7 @@ export const Sidebar = () => {
 								</a>
 							</li>
 							<li className='nav-item'>
-								<a href='pages/gallery.html' className='nav-link'>
+								<a href='/empleados' className='nav-link'>
 									<i className='nav-icon fas fa-user-cog' />
 									<p>Empleados</p>
 								</a>
@@ -62,17 +62,17 @@ export const Sidebar = () => {
 								</a>
 								<ul className='nav nav-treeview'>
 									<li className='nav-item'>
-									<a href='pages/mailbox/mailbox.html' className='nav-link'>
+									<a href='listamedi' className='nav-link'>
 											<i className='far fa-arrow-alt-circle-right nav-icon' />
 											<p>Lista Medicamentos</p>
 										</a>
-										<a href='pages/mailbox/mailbox.html' className='nav-link'>
+										<a href='crearmedi' className='nav-link'>
 											<i className='far fa-arrow-alt-circle-right nav-icon' />
 											<p>Crear Medicamento</p>
 										</a>
 									</li>
 									<li className='nav-item'>
-										<a href='pages/mailbox/compose.html' className='nav-link'>
+										<a href='modificarmedi' className='nav-link'>
 											<i className='far fa-arrow-alt-circle-right nav-icon' />
 											<p>Modificar Medicamento</p>
 										</a>
@@ -94,6 +94,12 @@ export const Sidebar = () => {
 									</p>
 								</a>
 								<ul className='nav nav-treeview'>
+								<li className='nav-item'>
+										<a href='/ventas' className='nav-link'>
+											<i className='far fa-arrow-alt-circle-right nav-icon' />
+											<p>Lista ventas</p>
+										</a>
+									</li>
 									<li className='nav-item'>
 										<a href='pages/mailbox/mailbox.html' className='nav-link'>
 											<i className='far fa-arrow-alt-circle-right nav-icon' />
