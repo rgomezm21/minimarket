@@ -6,5 +6,5 @@ import { Crearmedicinas } from '../../pages/auth/Medicinas/CrearMedicinas';
         <div className="crearMedicamento-page">
             <Crearmedicinas />
         </div>
-    )
+    );
 }

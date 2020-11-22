@@ -77,12 +77,6 @@ export const Sidebar = () => {
 											<p>Modificar Medicamento</p>
 										</a>
 									</li>
-									<li className='nav-item'>
-										<a href='pages/mailbox/read-mail.html' className='nav-link'>
-											<i className='far fa-arrow-alt-circle-right nav-icon' />
-											<p>Eliminar Medicamento</p>
-										</a>
-									</li>
 								</ul>
 							</li>
 							<li className='nav-item has-treeview'>
@@ -101,7 +95,7 @@ export const Sidebar = () => {
 										</a>
 									</li>
 									<li className='nav-item'>
-										<a href='pages/mailbox/mailbox.html' className='nav-link'>
+										<a href='ventasDiarias' className='nav-link'>
 											<i className='far fa-arrow-alt-circle-right nav-icon' />
 											<p>Ventas diarias</p>
 										</a>

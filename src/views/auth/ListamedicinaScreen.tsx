@@ -7,5 +7,5 @@ export const ListamedicinaScreen = () => {
         <div className="listamedicina-page">
             <ListaMedicinas />
         </div>
-    )
+    );
 }

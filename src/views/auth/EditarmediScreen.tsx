@@ -6,5 +6,5 @@ export const EditarmediScreen = () => {
         <div className="Modificarmedi-page">
             <ModificarMedi />
         </div>
-    )
+    );
 }

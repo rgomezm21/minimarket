@@ -7,14 +7,14 @@ export const Ventas = () => {
                 <div className="wrapper">
                 {/* Main Sidebar Container */}
                 {/* Content Wrapper. Contains page content */}
-                <div className="content-wrapper">
+                <div className="content-wrapper" style={{marginLeft:"0px"}}>
                     {/* /.content-header */}
                     {/* Main content */}
                     <section className="content">
                         <div className="container-fluid">
                             {/* Small boxes (Stat box) */}
                             <div className="row">
-                            <div className="col-lg-7">
+                            <div className="col-lg-3 col-6">
                                 {/* small box */}
                                 <div className="small-box bg-info">
                                     <div className="inner">
@@ -28,7 +28,7 @@ export const Ventas = () => {
                                 </div>
                             </div>
                             {/* ./col */}
-                            <div className="col-lg-7">
+                            <div className="col-lg-3 col-6">
                                 {/* small box */}
                                 <div className="small-box bg-success">
                                     <div className="inner">
@@ -42,7 +42,7 @@ export const Ventas = () => {
                                 </div>
                             </div>
                             {/* ./col */}
-                            <div className="col-lg-7">
+                            <div className="col-lg-3 col-6">
                                 {/* small box */}
                                 <div className="small-box bg-warning">
                                 <div className="inner">
@@ -56,7 +56,7 @@ export const Ventas = () => {
                                 </div>
                             </div>
                             {/* ./col */}
-                            <div className="col-lg-7">
+                            <div className="col-lg-3 col-6">
                                 {/* small box */}
                                 <div className="small-box bg-danger">
                                 <div className="inner">

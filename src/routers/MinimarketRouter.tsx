@@ -9,6 +9,8 @@ import { LoginScreen } from '../views/auth/LoginScreen';
 import { CrearmediScreen } from '../views/auth/CrearmediScreen';
 import { EditarmediScreen } from '../views/auth/EditarmediScreen';
 import { ListamedicinaScreen } from '../views/auth/ListamedicinaScreen';
+import { VentasDiariasScreen } from '../views/auth/VentasDiariasScreen';
+
 
 export const MinimarketRouter = () => {
 	return (
@@ -24,6 +26,7 @@ export const MinimarketRouter = () => {
 					<Route exact path='/crearmedi' component={CrearmediScreen} />
 					<Route exact path='/modificarmedi' component={EditarmediScreen} />
 					<Route exact path='/listamedi' component={ListamedicinaScreen} />
+					<Route exact path='/ventasDiarias' component={VentasDiariasScreen} />
 				</Switch>
 			</div>
 		</div>
