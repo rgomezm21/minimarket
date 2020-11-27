@@ -2,10 +2,9 @@ import React from 'react'
 
 export const ModificarMedi = () => {
     return (
-        <div>
-            <>
-                <section className="content">
-                  <div className="container-fluid">
+        <div> 
+            <section className="content">
+                <div className="container-fluid">
                     <div className="row">
                       {/* left column */}
                       <div className="col-md-12">
@@ -139,9 +138,8 @@ export const ModificarMedi = () => {
                       {/*/.col (left) */}
                       {/* /.row */}
                     </div>{/* /.container-fluid */}
-                  </div>
-                </section>
-            </>
+                </div>
+            </section>
         </div>
     )
 }

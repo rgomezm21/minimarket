@@ -14,9 +14,11 @@ export const Breadcrumbs = () => {
 						<div className='col-sm-6'>
 							<ol className='breadcrumb float-sm-right'>
 								<li className='breadcrumb-item'>
+									<a href='/login'>Vender</a>
+								</li>
+								<li className='breadcrumb-item'>
 									<a href='/login'>Cerrar sesion</a>
 								</li>
-								<li className='breadcrumb-item active'>Dashboard v3</li>
 							</ol>
 						</div>
 						{/* /.col */}

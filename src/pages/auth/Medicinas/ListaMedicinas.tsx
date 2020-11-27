@@ -40,9 +40,11 @@ export const ListaMedicinas = () => {
                                         <thead>
                                             <tr>
                                             <th>Nombre</th>
+                                            <th>Concentración</th>
+                                            <th>Tipo</th>
+                                            <th>Precio</th>
                                             <th>Fecha vencimiento</th>
-                                            <th>Laboratorio</th>
-                                            <th>Proveedor</th>
+                                            <th>Laboratorio</th>                         
                                             <th>Opciones</th>
                                             </tr>
                                         </thead>
@@ -54,7 +56,9 @@ export const ListaMedicinas = () => {
                                             </td>
                                             <td>Win 95+</td>
                                             <td> 4</td>
-                                            <td><button type="submit" className="btn btn-primary mr-3">Modificar</button>                                          
+                                            <td>Win 95+</td>
+                                            <td> 4</td>
+                                            <td><button type="submit" className="btn btn-success mr-1">Comprar</button>                                          
                                             </td>
                                             </tr>
                                             <tr>

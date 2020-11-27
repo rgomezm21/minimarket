@@ -95,21 +95,27 @@ export const Sidebar = () => {
 										</a>
 									</li>
 									<li className='nav-item'>
-										<a href='ventasDiarias' className='nav-link'>
+										<a href='/ventasDiarias' className='nav-link'>
 											<i className='far fa-arrow-alt-circle-right nav-icon' />
 											<p>Ventas diarias</p>
 										</a>
 									</li>
 									<li className='nav-item'>
-										<a href='pages/mailbox/compose.html' className='nav-link'>
+										<a href='/ventasSemanales' className='nav-link'>
 											<i className='far fa-arrow-alt-circle-right nav-icon' />
 											<p>Ventas semanales</p>
 										</a>
 									</li>
 									<li className='nav-item'>
-										<a href='pages/mailbox/read-mail.html' className='nav-link'>
+										<a href='/ventasMensuales' className='nav-link'>
 											<i className='far fa-arrow-alt-circle-right nav-icon' />
 											<p>Ventas mensuales</p>
+										</a>
+									</li>
+									<li className='nav-item'>
+										<a href='ventasAnuales' className='nav-link'>
+											<i className='far fa-arrow-alt-circle-right nav-icon' />
+											<p>Ventas anuales</p>
 										</a>
 									</li>
 								</ul>
